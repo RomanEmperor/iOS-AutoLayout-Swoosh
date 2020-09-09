@@ -14,6 +14,7 @@
 		F228AE90250890F800E74F8F /* swoosh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F228AE8E250890F800E74F8F /* swoosh.xcdatamodeld */; };
 		F228AE92250890FA00E74F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F228AE91250890FA00E74F8F /* Assets.xcassets */; };
 		F228AE95250890FA00E74F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F228AE93250890FA00E74F8F /* LaunchScreen.storyboard */; };
+		F228AE9E25089A6700E74F8F /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F228AE9D25089A6700E74F8F /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F228AE91250890FA00E74F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F228AE94250890FA00E74F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F228AE96250890FA00E74F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F228AE9D25089A6700E74F8F /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		F228AE84250890F800E74F8F /* swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				F228AE9C25089A3800E74F8F /* Views */,
 				F228AE85250890F800E74F8F /* AppDelegate.swift */,
 				F228AE87250890F800E74F8F /* SceneDelegate.swift */,
 				F228AE89250890F800E74F8F /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				F228AE8E250890F800E74F8F /* swoosh.xcdatamodeld */,
 			);
 			path = swoosh;
+			sourceTree = "<group>";
+		};
+		F228AE9C25089A3800E74F8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F228AE9D25089A6700E74F8F /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				F228AE8A250890F800E74F8F /* ViewController.swift in Sources */,
 				F228AE86250890F800E74F8F /* AppDelegate.swift in Sources */,
 				F228AE90250890F800E74F8F /* swoosh.xcdatamodeld in Sources */,
+				F228AE9E25089A6700E74F8F /* BorderButton.swift in Sources */,
 				F228AE88250890F800E74F8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
